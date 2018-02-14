@@ -1,0 +1,13 @@
+.fullwrap{
+	width:75%;
+	height:100%;
+	margin: 0 auto;
+	background: #00F1FF;
+}
+
+.header{
+	width:75%;
+	height:10%;
+	margin: 0 auto;
+	background: red;
+}

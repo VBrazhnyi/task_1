@@ -1,14 +1,16 @@
 .fullwrap{
 	margin: 0 auto;
 	max-width: 800px;
-	
+	font-size: 23px;
+	background-color: white;
+
 }
 
 header{
+	margin-top: 40px;
 	height: 200px;
-
     position: relative;
-   	background: url(../image/header_bg.gif);
+   	background: url(../image/header.png);
 	background-size: 100% 100%;
 }
 
@@ -17,18 +19,24 @@ header{
 }
 
 .main{
-
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
 	font-size: 23px;
 	margin-top: 60px;
-	font-family: "Melmac", sans-serif;
+	font-family:  sans-serif;
 }
-
-
 
 .image_blok {
 	columns: 2;
+
+}
+
+.image_blok{
+	text-align: center;
+}
+
+.image_blok2{
+	text-align: center;
 }
 button{
 	margin: 0 auto;
@@ -48,5 +56,23 @@ button{
 
 .image_blok2{
 	margin-top: 40px;
-	columns: 3;
+	columns: 2;
+}
+footer{
+	margin-top: 40px;
+	height: 250px;
+	color: white;
+	background-color: #00688B;
+}
+footer img{
+	margin-top: 30px;
+	width: 6%;
+}
+
+.center{
+	text-align: center;
+}
+
+.white a{
+	color: white;
 }

@@ -1,23 +1,25 @@
-.fullwrap{
+*{
+	margin: 0;
+	background-color: #32879e;
+}
+.wrap{
 	margin: 0 auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
 	max-width: 800px;
 	font-size: 23px;
 	background-color: white;
-
 }
-
+p, p>b, i, a, div, li, ul{
+	background-color: white;
+}
 header{
 	margin-top: 40px;
 	height: 200px;
-    position: relative;
    	background: url(../image/header.png);
 	background-size: 100% 100%;
 }
-
-.text_center{
-	text-align: center;
-}
-
 .main{
 	padding-left: 25px;
 	padding-right: 25px;
@@ -25,20 +27,14 @@ header{
 	margin-top: 60px;
 	font-family:  sans-serif;
 }
-
 .image_blok {
 	columns: 2;
-
 }
 
 .image_blok{
 	text-align: center;
 }
-
-.image_blok2{
-	text-align: center;
-}
-button{
+button, button>b{
 	margin: 0 auto;
 	font-size: 22px;
 	border-radius: 8px;
@@ -47,15 +43,14 @@ button{
 	color: white;	
 	width: 100%;
 	height: 50px;
-	
 }
-.main img {
+img {
 	width: 100%;
 	height: auto;
 }
-
 .image_blok2{
 	margin-top: 40px;
+	text-align: center;
 	columns: 2;
 }
 footer{
@@ -67,12 +62,22 @@ footer{
 footer img{
 	margin-top: 30px;
 	width: 6%;
+	background-color: #00688B;
 }
-
 .center{
 	text-align: center;
 }
-
 .white a{
 	color: white;
+}
+.grey {
+	background-color: #00688B;
+	color: white;
+}
+b>p>a{
+	background-color:  #00688B;
+	color: white;
+}
+p>b>a{
+	background-color:  #00688B;
 }

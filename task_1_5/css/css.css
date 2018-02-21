@@ -1,36 +1,41 @@
-.fullwrap{
-	margin: 0 auto;
-	max-width: 800px;
-	
+*{
+	margin: 0;
+	background-color: #ababad;
 }
+.wrap{
+	margin: 20px auto;
+	max-width: 800px;
 
+}
 header{
+	background-color: white;
 	height: 200px;
-
     position: relative;
    	background: url(../image/header_bg.gif);
 	background-size: 100% 100%;
 }
-
-.text_center{
+.text_center, footer{
 	text-align: center;
+	
 }
-
 .main{
-
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 40px;
 	font-size: 23px;
 	margin-top: 55px;
 	font-family: "Melmac", sans-serif;
 }
-
-
-
 .image_blok {
+	background-color: white;
 	columns: 2;
 }
-button{
+p, p>b, i, a, div, img{
+	background-color: white;
+}
+
+
+button, button>b{
 	margin: 0 auto;
 	font-size: 22px;
 	border-radius: 8px;
@@ -39,14 +44,24 @@ button{
 	color: white;	
 	width: 100%;
 	height: 50px;
-	
 }
 .main img {
 	width: 100%;
 	height: auto;
 }
-
 .image_blok2{
 	margin-top: 40px;
 	columns: 3;
+}
+footer{
+	margin-top: 40px;
+	font-size: 16px;
+	color: white;
+}
+.grey{
+	background-color: #ababad;
+	color: white;
+}
+body{
+	padding-bottom: 20px;
 }
